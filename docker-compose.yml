@@ -1,0 +1,15 @@
+version: '3'
+services:
+  openwebrx:
+    container_name: openwebrxplus
+    build:
+      context: .
+    image: openwebrxplus_rtl-sdr-blog-v4
+    devices:
+      - "/dev/bus/usb:/dev/bus/usb"
+    ports:
+      - "8073:8073"
+    volumes:
+      - ./settings:/var/lib/openwebrx
+      - ./etc:/etc/openwebrx
+    restart: "unless-stopped"

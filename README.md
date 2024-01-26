@@ -29,9 +29,9 @@ Blog V4 driver, creating a new image containing both, and running the new image 
 
 - Operating system:
     - It will likely work with any modern Linux-like OS.
-    - Not sure about Mac or Windows, but maybe? Depending on their configuration, most Windows users won't be able to
-      run bash scripts, but they can look at the contents of `start.sh`, `stop.sh`, and `create_admin_user.sh` to find
-      the commands they use. It should be pretty easy to convert these scripts to batch files.
+    - Not sure about Mac or Windows, but maybe?  It seems that people have trouble giving Docker containers access to USB
+      devices on [Mac](https://github.com/docker/roadmap/issues/511) and [Windows](https://forums.docker.com/t/usb-ip-on-docker-desktop-wsl2-backend/135921)
+      machines.  That may change in the future.
     - I'm using Ubuntu 22.04, and it works for me.
 - [Docker Desktop](https://docs.docker.com/get-docker/) or a compatible equivalent.
 

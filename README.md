@@ -42,15 +42,15 @@ Blog V4 driver, creating a new image containing both, and running the new image 
    or [download a .zip file](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives)
    and unzip it.
 2. `cd` to the directory containing the code.
-3. Run `start.sh`. This might take a while the first time (or when a new version of OpenWebRx+ has been released)
+3. Run `./start.sh`. This might take a while the first time (or when a new version of OpenWebRx+ has been released)
    because it will download and build stuff.
-4. (Optional) If you didn't already create an admin user, now would be a good time. Run `create_admin_user.sh` and
+4. (Optional) If you didn't already create an admin user, now would be a good time. Run `./create_admin_user.sh` and
    provide the new admin user's password when asked for it.
 
 That's all there is to getting up and running!  Docker will create subdirectories named `etc` and `settings` for all the
 OpenWebRx+ settings.
 
-To stop OpenWebRx+, run `stop.sh`.
+To stop OpenWebRx+, run `./stop.sh`.
 
 ## Image Distribution
 

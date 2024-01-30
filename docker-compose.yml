@@ -12,4 +12,5 @@ services:
     volumes:
       - ./settings:/var/lib/openwebrx
       - ./etc:/etc/openwebrx
+      - ./tmp:/tmp/openwebrx
     restart: "unless-stopped"

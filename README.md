@@ -47,8 +47,9 @@ Blog V4 driver, creating a new image containing both, and running the new image 
 4. (Optional) If you didn't already create an admin user, now would be a good time. Run `./create_admin_user.sh` and
    provide the new admin user's password when asked for it.
 
-That's all there is to getting up and running!  Docker will create subdirectories named `etc` and `settings` for all the
-OpenWebRx+ settings.
+That's all there is to getting up and running!  Docker will create subdirectories named `etc` and `settings` for the
+OpenWebRx+ settings.  It will also create a `tmp` directory for temporary files so received data won't be lost when
+you restart openwebrx.
 
 To stop OpenWebRx+, run `./stop.sh`.
 

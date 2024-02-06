@@ -53,6 +53,8 @@ you restart openwebrx.
 
 To stop OpenWebRx+, run `./stop.sh`.
 
+To upgrade OpenWebRx+ to the latest version, run `./upgrade.sh`.  This downloads and builds the latest version.  If it detects that OpenWebRx+ is running, it will restart it so the new version will be running.
+
 ## Image Distribution
 
 OpenWebRx+ uses the [AGPL-3.0 license](https://github.com/luarvique/openwebrx/blob/master/LICENSE.txt), and the RTL-SDR

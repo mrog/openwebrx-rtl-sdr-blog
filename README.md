@@ -53,7 +53,9 @@ you restart openwebrx.
 
 To stop OpenWebRx+, run `./stop.sh`.
 
-To upgrade OpenWebRx+ to the latest version, run `./upgrade.sh`.  This downloads and builds the latest version.  If it detects that OpenWebRx+ is running, it will restart it so the new version will be running.
+To upgrade OpenWebRx+ to the latest version, run `./upgrade.sh`.  This downloads and builds the latest version.  If it
+detects that OpenWebRx+ is running, it will restart it so the new version will be running.  If you do this a lot, the
+old images may eventually take a lot of disk space.  You can clean up unused images by running `docker image prune`.
 
 ## Image Distribution
 

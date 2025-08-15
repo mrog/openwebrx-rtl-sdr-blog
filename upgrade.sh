@@ -2,6 +2,12 @@
 
 container_name=openwebrxplus
 
+echo
+echo ====================================
+echo Upgrading $container_name
+date
+echo
+
 # Download and build the latest version.
 docker-compose build --no-cache
 
